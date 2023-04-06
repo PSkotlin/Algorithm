@@ -38,9 +38,6 @@ class Solution {
             sb.append(")") //   4-3. ')'를 다시 붙입니다.
 
             // 4-4. u의 첫 번째와 마지막 문자를 제거하고, 나머지 문자열의 괄호 방향을 뒤집어서 뒤에 붙입니다.
-            u.drop(0)
-            u.dropLast(0)
-
             u = u.substring(1 until u.lastIndex)
 
             for (i in u.indices) {
